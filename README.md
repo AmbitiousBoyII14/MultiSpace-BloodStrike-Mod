@@ -23,4 +23,4 @@ Grab the APK from **[Releases](../../releases)** (or the `MultiSpace-BloodStrike
 3. Open Multi Space, clone/import BloodStrike, launch it from inside Multi Space
 4. Menu should appear — tap/drag to test touch
 
-Built from source commit v2.0 (bundle: host FGS fix + key system + white UI + button-armed features, no boot-time inject).
+Built from source commit v2.1 (diagnostic: INJECT captures payload traceback to imgui/inject_err.txt, shown in the status tab; hook proven by calls counter).
