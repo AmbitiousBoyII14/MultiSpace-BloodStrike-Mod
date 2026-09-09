@@ -21,4 +21,4 @@ Grab the APK from **[Releases](../../releases)** (or the `MultiSpace-BloodStrike
 3. Open Multi Space, clone/import BloodStrike, launch it from inside Multi Space
 4. Menu should appear — tap/drag to test touch
 
-Built from source commit `a044d69` (v1.2: launch-crash fix).
+Built from source commit `a044d69` (v1.3: key system + white UI).
