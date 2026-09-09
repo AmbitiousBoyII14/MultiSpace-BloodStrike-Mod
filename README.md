@@ -11,7 +11,8 @@ Grab the APK from **[Releases](../../releases)** (or the `MultiSpace-BloodStrike
 - Host: Multi Space 1.1.3 (`com.dualspace.multispace.android`), clean base + patched loader
 - Menu: ImGui ModMenu, touch via `MotionEvent::copyFrom` hook in `libinput.so`
 - Native payload: `lib/arm64-v8a/libbsmenu.so`
-- Patch offset intact: `0x471e320`
+- PyRun hook: hand-rolled 16-byte detour + prologue validator, pattern-scan only (no blind offsets)
+- Pattern verified UNIQUE in libGame 1.003.650022 (single hit `0x471e320`, tail check PASS)
 - Signed (installs over previous copies of this mod)
 
 ## Install
@@ -21,4 +22,4 @@ Grab the APK from **[Releases](../../releases)** (or the `MultiSpace-BloodStrike
 3. Open Multi Space, clone/import BloodStrike, launch it from inside Multi Space
 4. Menu should appear — tap/drag to test touch
 
-Built from source commit `a044d69` (v1.3: key system + white UI).
+Built from source commit `df2e2d8` (v1.4: hand-rolled PyRun hook crash fix + key system + white UI).
