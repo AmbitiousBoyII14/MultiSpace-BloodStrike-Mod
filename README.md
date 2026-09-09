@@ -21,4 +21,4 @@ Grab the APK from **[Releases](../../releases)** (or the `MultiSpace-BloodStrike
 3. Open Multi Space, clone/import BloodStrike, launch it from inside Multi Space
 4. Menu should appear — tap/drag to test touch
 
-Built from source commit `cd0c0c1`.
+Built from source commit `c83f41f` (v1.1: PyRun dead-features fix + status tab).
