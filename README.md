@@ -23,4 +23,4 @@ Grab the APK from **[Releases](../../releases)** (or the `MultiSpace-BloodStrike
 3. Open Multi Space, clone/import BloodStrike, launch it from inside Multi Space
 4. Menu should appear — tap/drag to test touch
 
-Built from source commit v2.1 (diagnostic: INJECT captures payload traceback to imgui/inject_err.txt, shown in the status tab; hook proven by calls counter).
+Built from source commit v2.2 (keyboard stays on top + typing fixed, Paste/clipboard fixed via JNI_OnLoad, pattern-scan PyRun hook with offset fallback, INJECT traceback diagnostic kept).
